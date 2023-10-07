@@ -1,0 +1,327 @@
+/*ESTILO GERAL  ================*/
+*{
+    margin: 0;
+    padding: 0;
+       
+}
+
+
+/* HEADER =======================*/
+header{
+    background-color: #222;
+    padding: 25PX;
+    color: #00e0ff;
+    width: 100%;
+    margin-bottom: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 2.6em;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+h1 span{
+    color: #fff;
+}
+
+header a{
+    margin-right: 1.3em;
+    margin-left: 1.2em;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;       
+}
+
+header h1, a{
+    color: #00e0ff;
+    transition: 0.2s ease-in-out;
+}
+
+header h1:hover, a:hover {
+    color: #fff
+}
+header a:hover{
+    transform: scale(1.2);
+}
+
+header nav{
+        transition: 0.2s ease-in-out;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;     
+}
+
+/*TITULO==========================*/
+h2{
+    text-align: center;
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 50%;
+
+}
+
+
+span{
+    color: #00e0ff;
+}
+
+/* ESTILO PORTFÓLIO==============*/
+
+.content{
+    height: 560px;
+    width: 899px;
+    margin-top: 10%;
+   
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img{
+    border-radius: 20px;
+}
+
+.navigation{
+    margin-bottom: 15%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    background-color: #ffffff27;
+    border: 3px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #00e0ff;
+}
+
+input{
+    display: none;
+}
+.projetos {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide{
+    width: 25%;
+    transition: 0.6s;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}
+
+.detalhe{
+    margin-top: 1%;
+    color: #00e0ff;
+}
+/*SOBRE====================*/
+.coluna{
+   margin-left: 5px;
+   margin-right: 5px;
+   display: flex;
+   justify-content: center;
+   gap: 6%;
+      
+}
+
+.coluna img{
+    margin-top: 5px;
+    margin: 2px 2px 2px 2px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border: #00e0ff solid;
+}
+
+.coluna img:hover{
+    box-shadow: 0px 0px 8px #00e0ff;
+}
+
+.logo{
+    color: #fff;
+}
+
+.coluna h3{
+    color: #00e0ff;
+    text-align: left;
+}
+
+
+/*ESTILO DAS ESPECIALIDADES*/
+
+.especialidades-box{
+    grid-gap: 1%;
+    display: grid;
+    gap: 4%;
+    grid-template-columns: 32.33% 32.33% 32.33%;
+    margin-bottom: 8%;
+   
+  
+
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.especialidades h2{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+.centralizar{
+    width: 350px;
+    height: 350px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    overflow-y: hidden;
+    padding: 40px 4%;
+    text-align: center;
+    transition: all 1s;
+    cursor: pointer;
+
+    
+}
+
+.centralizar:hover{
+    box-shadow: 0px 0px 15px #00e0ff;
+}
+
+.especialidades-box i{
+    font-size: 70px;
+    color: #00e0ff;
+}
+
+h3{
+    font-weight: 700;
+    margin: 10px 0;
+    margin-inline: 5px;
+    text-align: center;
+
+}
+
+
+.centralizar{
+    width: 350px;
+    height: 350px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    overflow-y: hidden;
+    padding: 40px 4%;
+    text-align: center;
+    transition: all 1s;
+    cursor: pointer;
+
+    
+}
+
+.centralizar:hover{
+    box-shadow: 0px 0px 15px #00e0ff;
+}
+
+.especialidades-box i{
+    font-size: 70px;
+    color: #00e0ff;
+}
+
+h3{
+    font-weight: 700;
+    margin: 10px 0;
+    margin-inline: 5px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
