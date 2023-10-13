@@ -25,7 +25,9 @@
 Obs: o mesmo é demostrativo, e ainda não foi  validado.
 
 -🛠️ TECNOLOGIA UTILIZADA:
--HTML: Utilizado para criar a estrutura e o conteúdo da página.
+-
+-
+HTML: Utilizado para criar a estrutura e o conteúdo da página.
 -CSS: Responsável pela estilização do portfólio.
 -JavaScript: Adiciona interatividade e funcionalidades.
 -Bootstrap: Framework de CSS que facilita a criação de layouts responsivos.
